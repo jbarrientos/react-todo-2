@@ -6,7 +6,7 @@ export var setSearchText = (searchText) => {
 };
 
 // toggleShowCompleted TOGGLE_SHOW_COMPLETED
-export var toggleShowCompleted = () => {
+export var showCompleted = () => {
   return {
     type: 'TOGGLE_SHOW_COMPLETED'
   };

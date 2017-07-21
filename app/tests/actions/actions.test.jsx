@@ -25,7 +25,7 @@ describe('Actions', () => {
     var action = {
       type: 'TOGGLE_SHOW_COMPLETED'
     };
-    var res = actions.toggleShowCompleted();
+    var res = actions.showCompleted();
     expect(res).toEqual(action);
   });
 
