@@ -93,4 +93,4 @@ var TodoApp = React.createClass({
 });
 
 // module.exports = TodoApp;
-exports default Redux.connect()(TodoApp);
+export default Redux.connect()(TodoApp);
